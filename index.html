@@ -3,30 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="one.css">
+    <title>wordle</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<body dir="rtl">
-      <h3>מה המאכל האהוב עליכם</h3>
-     <br>
-    <input type="radio" name="q1">
-    <span>פיצה</span>
-    <br>
-    <input type="radio" name="q1">
-    <span>המבורגר</span>
-    <br>
-    <input type="radio" name="q1">
-    <span>סושי</span>
-    <br> <br>
-    <h3>what is your favorite football team?</h3>
-    <br>
-   <input type="radio" name="q2">
-   <span>ריאל מדריד</span>
-   <br>
-   <input type="radio" name="q2">
-   <span>ברצלונה</span>
-   <br> 
-<!--    <iframe src="https://www.wikipedia.org/" frameborder="0"></iframe>
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/X-fgqCAM7nA?si=yrHTcb2m1N5dBFv5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<body dir ="ltr">
+    <center>
+        <h1>wordle game</h1>
+        <input type="text" placeholder="guss a word" id="word">
+        <button onclick="guess()" onclick="win()">guess</button>
+        <br>
+        <br>
+        <div id="container">
+            
+        </div>
+
+    </center>
+    <script src="index.js"></script>
 </body>
 </html>
